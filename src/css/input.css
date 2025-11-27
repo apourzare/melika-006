@@ -1,0 +1,13 @@
+@import url("https://v1.fontapi.ir/css/Yekan");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #fe00fc;
+  --font-yekan: Yekan, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-yekan;
+  }
+}

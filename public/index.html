@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary:#ff00ff;
+            --font-vazirmatn:  Vazirmatn, sans-serif;
+        }
+        @layer base {
+            body {
+                font-family: var(--font-vazirmatn);
+            }
+            h3 {
+                font-size: 24px;
+                font-weight: 800;
+                color: var(--color-green-600);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="min-h-20 border-b flex border-zinc-300">
+        <div class="container  mx-auto">
+            <a href="./002.html" class="">قسمت دوم</a>
+        </div>
+    </header>
+    <h1 class="text-3xl font-bold underline">Hello World</h1>
+    <div class="bg-linear-60 from-white to-neutral-100 w-72 h-46 mt-8 mr-40 border border-neutral-300 rounded-2xl shadow-2xl shadow-red-400 px-4 py-2">
+        <h3 class="">عنوان کارد</h3>
+    </div>
+    <h3>تست</h3>
+</body>
+</html>
