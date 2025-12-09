@@ -1,13 +1,20 @@
-@import url("https://v1.fontapi.ir/css/Yekan");
 @import "tailwindcss";
+@import "../../node_modules/vazirmatn/misc/Farsi-Digits/Vazirmatn-FD-font-face.css";
+@plugin "@iconify/tailwind4";
 
 @theme {
   --color-primary: #fe00fc;
-  --font-yekan: Yekan, sans-serif;
+  --font-vazirmatn: "Vazirmatn FD", sans-serif;
 }
 
 @layer base {
   body {
-    @apply font-yekan;
+    @apply font-vazirmatn;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto;
   }
 }
